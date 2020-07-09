@@ -35,6 +35,9 @@
   .title{
     font-size: 1.25em;
   }
+  .promo{
+    min-height: 330px;
+  }
   .promo .title__wrapper{
     text-align: center;
   }
@@ -44,4 +47,17 @@
   .promo .form .btn{
     margin-top: .6rem;
   }
+  .promo .descr {
+    margin-bottom: 1rem;
+  }
+  .promo .form__wrapper{
+    margin: 0 auto;
+    width: 195px;
+  }
+  .description {
+    margin-bottom: 3rem;
+  }
+  .partners .partners-img_2 {
+    margin: 69px auto;
+}
 }
