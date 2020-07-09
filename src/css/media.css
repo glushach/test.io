@@ -1,0 +1,47 @@
+
+@media (max-width: 1199px){
+  .partners .row .col-lg-7, .partners .row .col-md-7{
+    margin: 0 auto;
+  }
+  .title__wrapper{
+    text-align: center;
+  }
+  .promo .title__wrapper{
+    text-align: left;
+  }
+  .title{
+    font-size: 2.3em;
+  }
+  .partners .descr{
+    text-align: center;
+  }
+}
+@media (max-width: 991px){
+  .title{
+    font-size: 1.7em;
+  }
+  .promo {
+    margin-bottom: 2rem;
+    min-height: 280px;
+}
+}
+@media (max-width: 767px){
+
+  .title {
+    font-size: 1.65em;
+  }
+}
+@media (max-width: 575px){
+  .title{
+    font-size: 1.25em;
+  }
+  .promo .title__wrapper{
+    text-align: center;
+  }
+  .promo .form {
+    flex-wrap: wrap;
+  }
+  .promo .form .btn{
+    margin-top: .6rem;
+  }
+}

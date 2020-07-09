@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-   <title>Test</title>
-   <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
-   <link rel="stylesheet" href="css/bootstrap-grid.min.css">
-   <link rel="stylesheet" href="css/bootstrap.min.css">
-   <link rel="stylesheet" href="css/fonts.css">
-   <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Test</title>
+  <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
 </head>
+
 <body>
   <header class=header>
     <div class="container-xl">
-      <nav class="navbar navbar-expand-md navbar-light">
+      <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand">
-          <img src="img/logotip_2.png" alt="">
+          <img src="img/logo.png" alt="">
         </a>
         <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav"
           aria-expanded="false" aria-label="Toggle navigation">
@@ -48,19 +51,19 @@
   <section class="promo">
     <div class="container-xl">
       <div class="row">
-        <div class="col-xl-7">
-          <h1 class="title">У нас вы найдете лучшие светодиодные лампы для животоводства</h1>
+        <div class="col-xl-7 col-lg-7 col-md-7 col-sm-9 col-12">
+          <div class="title__wrapper"><h1 class="title">У нас вы найдете лучшие светодиодные лампы для животоводства</h1></div>
         </div>
       </div>
 
       <div class="row">
-        <div class="col-xl-4">
-          <div class="descr">Оставьте нам свой номер, и получите <span>бесплатный</span> рассчет специально вас!</div>
+        <div class="col-xl-4 col-lg-4 col-md-5 col-sm-7">
+          <div><div class="descr">Оставьте нам свой номер, и получите <span>бесплатный</span> рассчет специально вас!</div></div>
         </div>
       </div>
 
       <div class="row">
-        <div class="col-xl-5">
+        <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5">
           <form id="consultation-form" class="form" action="#">
             <div class="holder">
               <input id="phone" name="phone" required>
@@ -73,11 +76,64 @@
     </div>
   </section>
   <section class="description">
-    <h2>ggggg</h2>
+    <div class="container-xl">
+      <div class="row justify-content-center">
+        <div class="col-xl-8 col-lg-8 col-md-8 col-sm-10">
+          <div class="title__wrapper"><h2 class="title">Расскажем вам немного о себе</h2></div>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-8">
+          <div class="descr">Мы ценим ваше время, по этому мы постараемся рассказать о <span>главном вкратце!</span>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+          <div class=description-img><img src="img/lamp.png" alt=""></div>
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-7 col-sm-8">
+          <div class="description-item">
+            <div class="description-icon description-icon_mini"><img src="icons/icon-1.png" alt=""></div>
+            <div class="description-text">Наша компания была основана в 2015 году, название ей «ЭлипсЛед». Занимаемся мы производством светильников для животноводства</div>
+          </div>
+          <div class="description-item">
+            <div class="description-icon"><img src="icons/icon-2.png" alt=""></div>
+            <div class="description-text">Работаем мы исключительно на собственном оборудовании и только с качественным сырьем.</div>
+          </div>
+          <div class="description-item">
+            <div class="description-icon"><img src="icons/icon-3.png" alt=""></div>
+            <div class="description-text">С помощью команды наших специалистов
+              мы смогли добиться одного из самых высоких уровней качества светодиодных светильников для свиноводства, КРС, выращивания грибов!</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="partners">
+    <div class="container-xl">
+      <div class="row justify-content-between">
+        <div class="col-xl-4 col-lg-7 col-md-7 col-sm-9">
+          <div class="title__wrapper"><h3 class="title">Наши партнеры по бизнесу</h3></div>
+          <div class="descr">Хотим рассказать вам с кем мы сотрудничаем, и кто нам <span>доверяет</span></div>
+        </div>
+        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6">
+          <div class="partners-img_1"><img src="img/partners/partners-1.png" alt=""></div>
+          <div class="partners-img_3"><img src="img/partners/partners-3.png" alt=""></div>
+          <div class="partners-img_5"><img src="img/partners/partners-5.png" alt=""></div>
+        </div>
+        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6">
+          <div class="partners-img_2"><img src="img/partners/partners-2.png" alt=""></div>
+          <div class="partners-img_4"><img src="img/partners/partners-4.png" alt=""></div>
+          <div class="partners-img_6"><img src="img/partners/partners-6.png" alt=""></div>
+        </div>
+      </div>
+    </div>
   </section>
   <script src="js/jquery-3.5.1.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/jquery.maskedinput.min.js"></script>
   <script src="js/script.js"></script>
 </body>
+
 </html>
